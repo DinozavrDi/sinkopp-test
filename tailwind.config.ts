@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        inter: ["var(--font-inter-tight)", "sans-serif"],
+        interItalic: ["var(--font-inter-tight-italic)", "sans-serif"],
+        helvetica: ["var(--font-helvetica)", "sans-serif"],
+      },
     },
   },
   plugins: [],
